@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.6">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p25" frameDuration="100/2500s" width="1920" height="1080"/>
+        <asset id="r2" name="Intro_Davos_v3_Gotham" uid="2145CAA0CD9F51FECEFA1095182D1560" src="file:///Volumes/ARCHIVES_VIDEO/fred/Library_externe.fcpbundle/24-01-18_davos_blake/Original%20Media/Intro_Davos_v3_Gotham.mov" start="0s" duration="4s" hasVideo="1" format="r1">
+            <bookmark>Ym9va4gEAAAAAAQQMAAAAErhZ86iL0t0Krjyreb0t/QJfPUysRZxj8Yhimpxw5hQqAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAOAAAAAQEAAEFSQ0hJVkVTX1ZJREVPAAAEAAAAAQEAAGZyZWQZAAAAAQEAAExpYnJhcnlfZXh0ZXJuZS5mY3BidW5kbGUAAAAUAAAAAQEAADI0LTAxLTE4X2Rhdm9zX2JsYWtlDgAAAAEBAABPcmlnaW5hbCBNZWRpYQAAGQAAAAEBAABJbnRyb19EYXZvc192M19Hb3RoYW0ubW92AAAAHAAAAAEGAAAQAAAAIAAAADgAAABEAAAAaAAAAIQAAACcAAAACAAAAAQDAACeKgYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAFhHAAAAAAAACAAAAAQDAAC+VQAAAAAAAAgAAAAEAwAA+RcCAAAAAAAIAAAABAMAAA4YAgAAAAAACAAAAAQDAAAyGAIAAAAAABwAAAABBgAA5AAAAPQAAAAEAQAAFAEAACQBAAA0AQAARAEAAAgAAAAABAAAQcALnF6AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAB8AAAABCQAAZmlsZTovLy9Wb2x1bWVzL0FSQ0hJVkVTX1ZJREVPLwAIAAAABAMAAADAkKzRAQAACAAAAAAEAABBvw45pAAAACQAAAABAQAANEU5MTBGQTUtMzE5RS0zNDVELUFFMEEtQkVDODkyNThFM0JEGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAXAAAAAQEAAC9Wb2x1bWVzL0FSQ0hJVkVTX1ZJREVPAAgAAAABCQAAZmlsZTovLy8GAAAAAQEAAE02MDAwNgAACAAAAAQDAAAAAJjz7QAAAAgAAAAABAAAQbvTKuEAAAAkAAAAAQEAAEVBREI0MTcxLUJENzEtM0Y1OS05OTdFLTg4RkU5NjczM0E1RBgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAXAIAAAAAAAAQIAAAbAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAABoAwAAqAAAAP7///8BAAAA9AIAAA0AAAAEEAAAwAAAAAAAAAAFEAAAVAEAAAAAAAAQEAAAiAEAAAAAAABAEAAAeAEAAAAAAAAAIAAAgAMAAAAAAAACIAAAPAIAAAAAAAAFIAAAqAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA8AEAAAAAAAASIAAA0AEAAAAAAAATIAAA4AEAAAAAAAAgIAAAHAIAAAAAAAAQ0AAABAAAAAAAAAA=</bookmark>
+            <metadata>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>H.264</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2018-01-24 15:39:55 +0100"/>
+            </metadata>
+        </asset>
+        <format id="r3" frameDuration="3806/90000s" width="1920" height="1080"/>
+        <asset id="r4" name="VID_20180125_151816" uid="EF541B2CBF68F19DD81E20AEE7A1DF68" src="file:///Volumes/ARCHIVES_VIDEO/fred/Library_externe.fcpbundle/25-01-18_time/Original%20Media/VID_20180125_151816.mp4" start="0s" duration="320832/1000s" hasVideo="1" format="r3" hasAudio="1" audioSources="1" audioChannels="2" audioRate="44100">
+            <bookmark>Ym9va4AEAAAAAAQQMAAAACcqXYQbtS1qiEoI2tdHNQFHnLtTxuzjDbdvZr/FAUK+oAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAOAAAAAQEAAEFSQ0hJVkVTX1ZJREVPAAAEAAAAAQEAAGZyZWQZAAAAAQEAAExpYnJhcnlfZXh0ZXJuZS5mY3BidW5kbGUAAAANAAAAAQEAADI1LTAxLTE4X3RpbWUAAAAOAAAAAQEAAE9yaWdpbmFsIE1lZGlhAAAXAAAAAQEAAFZJRF8yMDE4MDEyNV8xNTE4MTYubXA0ABwAAAABBgAAEAAAACAAAAA4AAAARAAAAGgAAACAAAAAmAAAAAgAAAAEAwAAnioGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAABYRwAAAAAAAAgAAAAEAwAAvlUAAAAAAAAIAAAABAMAAH8nAgAAAAAACAAAAAQDAACVJwIAAAAAAAgAAAAEAwAAlycCAAAAAAAcAAAAAQYAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAAAIAAAAAAQAAEHADRq4gAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAfAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy9BUkNISVZFU19WSURFTy8ACAAAAAQDAAAAwJCs0QEAAAgAAAAABAAAQb8OOaQAAAAkAAAAAQEAADRFOTEwRkE1LTMxOUUtMzQ1RC1BRTBBLUJFQzg5MjU4RTNCRBgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFwAAAAEBAAAvVm9sdW1lcy9BUkNISVZFU19WSURFTwAIAAAAAQkAAGZpbGU6Ly8vBgAAAAEBAABNNjAwMDYAAAgAAAAEAwAAAACY8+0AAAAIAAAAAAQAAEG70yrhAAAAJAAAAAEBAABFQURCNDE3MS1CRDcxLTNGNTktOTk3RS04OEZFOTY3MzNBNUQYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAOACAAAAAAAABSAAAFQCAAAAAAAAECAAAGQCAAAAAAAAESAAAJQCAAAAAAAAEiAAAHQCAAAAAAAAEyAAAIQCAAAAAAAAICAAAMACAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABUAwAAYAMAAGwDAABgAwAAYAMAAGADAABgAwAAYAMAAKgAAAD+////AQAAAOwCAAANAAAABBAAALgAAAAAAAAABRAAAEwBAAAAAAAAEBAAAIABAAAAAAAAQBAAAHABAAAAAAAAACAAAHgDAAAAAAAAAiAAADQCAAAAAAAABSAAAKABAAAAAAAAECAAACAAAAAAAAAAESAAAOgBAAAAAAAAEiAAAMgBAAAAAAAAEyAAANgBAAAAAAAAICAAABQCAAAAAAAAENAAAAQAAAAAAAAA</bookmark>
+            <metadata>
+                <md key="com.apple.proapps.spotlight.kMDItemCodecs">
+                    <array>
+                        <string>'avc1'</string>
+                        <string>AAC</string>
+                    </array>
+                </md>
+                <md key="com.apple.proapps.mio.ingestDate" value="2018-01-25 17:02:30 +0100"/>
+            </metadata>
+        </asset>
+        <effect id="r5" name="_Sous-titre_FB_2" uid="~/Titles.localized/TG/Synthes_fb/_Sous-titre_FB_2/_Sous-titre_FB_2.moti" src="file:///Users/adcb/Movies/Motion%20Templates.localized/Titles.localized/TG/Synthes_fb/_Sous-titre_FB_2/_Sous-titre_FB_2.moti"/>
+        <effect id="r6" name="_Synthe bleu itw interne" uid="~/Titles.localized/TG/_Synthe bleu itw interne/_Synthe bleu itw interne.moti" src="file:///Users/adcb/Movies/Motion%20Templates.localized/Titles.localized/TG/_Synthe%20bleu%20itw%20interne/_Synthe%20bleu%20itw%20interne.moti"/>
+        <effect id="r7" name="_Fondu_noir" uid="~/Titles.localized/TG/_Fondu_noir/_Fondu_noir.moti" src="file:///Users/adcb/Movies/Motion%20Templates.localized/Titles.localized/TG/_Fondu_noir/_Fondu_noir.moti"/>
+        <effect id="r8" name="_Fondu_noir_fin" uid="~/Titles.localized/TG/_Fondu_noir_fin/_Fondu_noir_fin.moti" src="file:///Users/adcb/Movies/Motion%20Templates.localized/Titles.localized/TG/_Fondu_noir_fin/_Fondu_noir_fin.moti"/>
+    </resources>
+    <library location="file:///Volumes/ARCHIVES_VIDEO/fred/Library_externe.fcpbundle/">
+        <event name="25-01-18_time" uid="4C18E484-91A9-4FAA-B086-59D1F1B4C520">
+            <project name="davos_molly" uid="1B55B0C6-5AEE-44CB-AE31-FC13FD764DB9" modDate="2018-01-25 18:20:38 +0100">
+                <sequence duration="508200/2500s" format="r1" renderColorSpace="Rec. 709" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <asset-clip name="Intro_Davos_v3_Gotham" offset="0s" ref="r2" duration="4s" tcFormat="NDF"/>
+                        <clip name="VID_20180125_151816" offset="4s" duration="364100/2500s" start="46600/2500s" format="r3" tcFormat="NDF">
+                            <conform-rate scaleEnabled="0"/>
+                            <video offset="0s" ref="r4" duration="28872316/90000s"/>
+                            <clip name="VID_20180125_151816" lane="-1" offset="12433841/720000s" duration="105847759/720000s" start="12433841/720000s" tcFormat="NDF">
+                                <adjust-volume amount="-3dB">
+                                    <param name="amount">
+                                        <fadeIn type="easeIn" duration="882244/720000s"/>
+                                    </param>
+                                </adjust-volume>
+                                <gap name="Gap" offset="0s" duration="28872316/90000s">
+                                    <audio lane="-1" offset="0s" ref="r4" duration="230999040/720000s" role="dialogue.dialogue-1" srcCh="1, 2"/>
+                                </gap>
+                            </clip>
+                            <title name="Pierre Ruetschi: Quels vont être, selon vous, les propos de Trump à Davos? - _Sous-titre_FB_2" lane="1" offset="47800/2500s" ref="r5" duration="7900/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts1">Pierre Ruetschi: Quels vont être, selon vous, les propos de Trump à Davos?</text-style>
+                                </text>
+                                <text-style-def id="ts1">
+                                    <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title name="MOLLY BALL - _Synthe bleu itw interne" lane="2" offset="47800/2500s" ref="r6" duration="15100/2500s" start="3600s">
+                                <param name="Position" key="9999/10003/1156460027/1156462558/1/100/101" value="448.186 37.9592"/>
+                                <param name="Shape Source" key="9999/10003/1156460027/1156462558/2/329/339" value="0"/>
+                                <param name="Editable in FCP" key="9999/10003/1156460027/1156462558/2/350" value="1"/>
+                                <param name="Position" key="9999/10003/1156460027/1156462732/1/100/101" value="450.631 116.915"/>
+                                <param name="Inside Path" key="9999/10003/1156460027/1156462732/2/329/332" value="0"/>
+                                <param name="Shape Source" key="9999/10003/1156460027/1156462732/2/329/339" value="0"/>
+                                <param name="Phase" key="9999/10003/1156460027/1156462732/2/329/346" value="0"/>
+                                <param name="Attach To Shape" key="9999/10003/1156460027/1156462732/2/329/348" value="1"/>
+                                <param name="Damping" key="9999/10003/1156460027/1156462732/2/329/349" value="0"/>
+                                <param name="Align To Text" key="9999/10003/1156460027/1156462732/2/329/353" value="0"/>
+                                <param name="Editable in FCP" key="9999/10003/1156460027/1156462732/2/350" value="1"/>
+                                <param name="Flatten" key="9999/10003/1156460027/1156462732/2/351" value="0"/>
+                                <param name="Opacity" key="9999/10003/1156460027/1156462732/2/366" value="1"/>
+                                <text>
+                                    <text-style ref="ts2">MOLLY</text-style>
+                                    <text-style ref="ts3"> BALL</text-style>
+                                </text>
+                                <text>
+                                    <text-style ref="ts4">journaliste
+time magazine</text-style>
+                                </text>
+                                <text-style-def id="ts2">
+                                    <text-style font="Helvetica Neue" fontSize="60" fontColor="0.999877 0.994991 0.994839 1" bold="1" strokeColor="0 0 0 1" strokeWidth="5" shadowColor="0 0 0 0.75" shadowOffset="3 281.05" shadowBlurRadius="3.08901"/>
+                                </text-style-def>
+                                <text-style-def id="ts3">
+                                    <text-style font="Helvetica Neue" fontSize="60" fontFace="Medium" fontColor="0.999877 0.994991 0.994839 1" strokeColor="0 0 0 1" strokeWidth="5" shadowColor="0 0 0 0.75" shadowOffset="3 281.05" shadowBlurRadius="3.08901"/>
+                                </text-style-def>
+                                <text-style-def id="ts4">
+                                    <text-style font="Helvetica Neue" fontSize="55" fontFace="Medium" fontColor="1 0.999974 0.999991 1" strokeColor="0 0 0 1" strokeWidth="5" shadowColor="0 0 0 0.75" shadowOffset="3 281" shadowBlurRadius="3.08"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Molly Ball: Il y a vraiment deux possibilités. La première est qu'il soit venu provoquer les gens de Davos - _Sous-titre_FB_2" lane="1" offset="55700/2500s" ref="r5" duration="12700/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts5">Molly Ball: Il y a vraiment deux possibilités. La première est qu'il soit venu provoquer les gens de Davos</text-style>
+                                </text>
+                                <text-style-def id="ts5">
+                                    <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title name="La seconde est qu'il soit ici pour les flatter. Pour le moment, les signaux de la Maison-Blanche sont contradictoires - _Sous-titre_FB_2" lane="1" offset="68400/2500s" ref="r5" duration="15200/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts6">La seconde est qu'il soit ici pour les flatter. Pour le moment, les signaux de la Maison-Blanche sont contradictoires</text-style>
+                                </text>
+                                <text-style-def id="ts6">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Trump a fait campagne contre les idées de Davos, sa globalisation et ses élites cosmopolites - _Sous-titre_FB_2" lane="1" offset="83600/2500s" ref="r5" duration="15200/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts7">Trump a fait campagne contre les idées de Davos, sa globalisation et ses élites cosmopolites</text-style>
+                                </text>
+                                <text-style-def id="ts7">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Les valeurs discutées ici de collaboration, de coopération entre les pays sont à l'opposé de sa philosophie - _Sous-titre_FB_2" lane="1" offset="98800/2500s" ref="r5" duration="28600/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts8">Les valeurs discutées ici de collaboration, de coopération entre les pays sont à l'opposé de sa philosophie</text-style>
+                                </text>
+                                <text-style-def id="ts8">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title name="C'est possible qu'il vienne ici avec un message de conciliation, visant à montrer qu'il n'est pas si terrible - _Sous-titre_FB_2" lane="1" offset="127400/2500s" ref="r5" duration="22200/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts9">C'est possible qu'il vienne ici avec un message de conciliation, visant à montrer qu'il n'est pas si terrible</text-style>
+                                </text>
+                                <text-style-def id="ts9">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title name="L'autre possibilité est qu'il soit ici pour dire:  - _Sous-titre_FB_2" lane="1" offset="149600/2500s" ref="r5" duration="19300/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/1504734698/401" value="1 (Center)"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts10">L'autre possibilité est qu'il soit ici pour dire: 
+"J'ai raison et vous avez tort"</text-style>
+                                </text>
+                                <text-style-def id="ts10">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title name="P.R.: Que cherche-t-il en venant à Davos? - _Sous-titre_FB_2" lane="1" offset="168900/2500s" ref="r5" duration="10400/2500s" start="8997100/2500s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts11">P.R.: Que cherche-t-il en venant à Davos?</text-style>
+                                </text>
+                                <text-style-def id="ts11">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title name="M.B.: C'est extrêmement mystérieux. Beaucoup de gens  - _Sous-titre_FB_2" lane="1" offset="179300/2500s" ref="r5" duration="13100/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/1504735014/401" value="1 (Center)"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts12">M.B.: C'est extrêmement mystérieux. Beaucoup de gens 
+en parlent à Davos, mais aussi à Washington</text-style>
+                                </text>
+                                <text-style-def id="ts12">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Je pense qu'il y a une réponse psychologique. Trump a toujours eu une certaine insécurité concernant son statut - _Sous-titre_FB_2" lane="1" offset="192400/2500s" ref="r5" duration="24100/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts13">Je pense qu'il y a une réponse psychologique. Trump a toujours eu une certaine insécurité concernant son statut</text-style>
+                                </text>
+                                <text-style-def id="ts13">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Même en étant le président des États-Unis. Même en étant peut-être la personne la plus importante au monde - _Sous-titre_FB_2" lane="1" offset="216500/2500s" ref="r5" duration="12000/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts14">Même en étant le président des États-Unis. Même en étant peut-être la personne la plus importante au monde</text-style>
+                                </text>
+                                <text-style-def id="ts14">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Il désire être perçu comme une de ces élites  - _Sous-titre_FB_2" lane="1" offset="228500/2500s" ref="r5" duration="24500/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/1504735802/401" value="1 (Center)"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts15">Il désire être perçu comme une de ces élites 
+qui viennent à Davos</text-style>
+                                </text>
+                                <text-style-def id="ts15">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="P.R.: Comment expliquez-vous sa passion pour Twitter? - _Sous-titre_FB_2" lane="1" offset="253000/2500s" ref="r5" duration="24500/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts16">P.R.: Comment expliquez-vous sa passion pour Twitter?</text-style>
+                                </text>
+                                <text-style-def id="ts16">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="M.B.: Trump est déjà arrivé à Davos.  - _Sous-titre_FB_2" lane="1" offset="111s" ref="r5" duration="24500/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/1504736165/401" value="1 (Center)"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts17">M.B.: Trump est déjà arrivé à Davos. 
+Il a des réunions en vue de son speech de demain</text-style>
+                                </text>
+                                <text-style-def id="ts17">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="On ne sait jamais quand Trump va tweeter. Ça se passe souvent tôt le matin ou tard le soir, quand il a du temps pour lui - _Sous-titre_FB_2" lane="1" offset="302000/2500s" ref="r5" duration="13800/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-33.7357"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1839.48"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts18">On ne sait jamais quand Trump va tweeter. Ça se passe souvent tôt le matin ou tard le soir, quand il a du temps pour lui</text-style>
+                                </text>
+                                <text-style-def id="ts18">
+                                    <text-style font="Helvetica Neue" fontSize="64" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Quand il regarde la télévision aussi. C'est très impulsif.  - _Sous-titre_FB_2" lane="1" offset="315800/2500s" ref="r5" duration="31400/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/1504736776/401" value="1 (Center)"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts19">Quand il regarde la télévision aussi. C'est très impulsif. 
+Au début, certains voulaient y voir une stratégie, un plan</text-style>
+                                </text>
+                                <text-style-def id="ts19">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Mais aujourd'hui, nous savons que ce n'est pas le cas.  - _Sous-titre_FB_2" lane="1" offset="347200/2500s" ref="r5" duration="16200/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/1504737087/401" value="1 (Center)"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts20">Mais aujourd'hui, nous savons que ce n'est pas le cas. 
+Il aime juste exprimer ce qu'il pense dans l'instant</text-style>
+                                </text>
+                                <text-style-def id="ts20">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Donc si quelque chose le dérange,  - _Sous-titre_FB_2" lane="1" offset="363400/2500s" ref="r5" duration="8400/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/1504737231/401" value="1 (Center)"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts21">Donc si quelque chose le dérange, 
+il va simplement le tweeter</text-style>
+                                </text>
+                                <text-style-def id="ts21">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Son entourage sait que c'est une mauvaise habitude.  - _Sous-titre_FB_2" lane="1" offset="371800/2500s" ref="r5" duration="17100/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/1504737422/401" value="1 (Center)"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts22">Son entourage sait que c'est une mauvaise habitude. 
+Que ça ne l'aide pas à atteindre ses objectifs politiques</text-style>
+                                </text>
+                                <text-style-def id="ts22">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Mais ils ne peuvent pas l'arrêter. Ils savent aussi que c'est une soupape dont il a besoin. Donc ils le tolèrent - _Sous-titre_FB_2" lane="1" offset="388900/2500s" ref="r5" duration="21000/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts23">Mais ils ne peuvent pas l'arrêter. Ils savent aussi que c'est une soupape dont il a besoin. Donc ils le tolèrent</text-style>
+                                </text>
+                                <text-style-def id="ts23">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="_Fondu_noir" lane="2" offset="409200/2500s" ref="r7" duration="2600/2500s" start="3600s"/>
+                        </clip>
+                        <clip name="VID_20180125_151816" offset="374100/2500s" duration="134100/2500s" start="576500/2500s" format="r3" tcFormat="NDF">
+                            <conform-rate scaleEnabled="0"/>
+                            <video offset="0s" ref="r4" duration="28872316/90000s"/>
+                            <clip name="VID_20180125_151816" lane="-2" offset="165801600/720000s" duration="38851200/720000s" start="165801600/720000s" tcFormat="NDF">
+                                <adjust-volume amount="-3dB">
+                                    <param name="amount">
+                                        <fadeOut type="easeIn" duration="1509671/720000s"/>
+                                    </param>
+                                </adjust-volume>
+                                <gap name="Gap" offset="0s" duration="28872316/90000s">
+                                    <audio lane="-1" offset="0s" ref="r4" duration="230999040/720000s" role="dialogue.dialogue-1" srcCh="1, 2"/>
+                                </gap>
+                            </clip>
+                            <title name="Trump peut être considéré comme du pain bénit  - _Sous-titre_FB_2" lane="1" offset="577100/2500s" ref="r5" duration="21000/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/1504738304/401" value="1 (Center)"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts24">Trump peut être considéré comme du pain bénit 
+pour les journalistes. Est-ce agréable de le suivre?</text-style>
+                                </text>
+                                <text-style-def id="ts24">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="D'un côté, Trump est un sujet fascinant. Et il a permis à de nombreuses personnes de se passionner pour la politique - _Sous-titre_FB_2" lane="1" offset="598100/2500s" ref="r5" duration="20700/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts25">D'un côté, Trump est un sujet fascinant. Et il a permis à de nombreuses personnes de se passionner pour la politique</text-style>
+                                </text>
+                                <text-style-def id="ts25">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Plus personne ne me dit que mon job est ennuyeux! - _Sous-titre_FB_2" lane="1" offset="618800/2500s" ref="r5" duration="8700/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts26">Plus personne ne me dit que mon job est ennuyeux!</text-style>
+                                </text>
+                                <text-style-def id="ts26">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Mais d'un autre côté, son ambivalence  - _Sous-titre_FB_2" lane="1" offset="251s" ref="r5" duration="7900/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-24.5578"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/1504739270/401" value="1 (Center)"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts27">Mais d'un autre côté, son ambivalence 
+à l'égard des médias </text-style>
+                                </text>
+                                <text-style-def id="ts27">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="A un effet destructeur sur la confiance que nous accorde le public et sur notre perception comme service d'utilité publique - _Sous-titre_FB_2" lane="1" offset="635400/2500s" ref="r5" duration="7s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-39.4717"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <param name="Size" key="9999/1504716720/1504717636/5/1504717638/3" value="64"/>
+                                <text>
+                                    <text-style ref="ts28">A un effet destructeur sur la confiance que nous accorde le public et sur notre perception comme service d'utilité publique</text-style>
+                                </text>
+                                <text-style-def id="ts28">
+                                    <text-style font="Helvetica Neue" fontSize="64" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Malgré l'importance de la liberté d'expression  - _Sous-titre_FB_2" lane="1" offset="652900/2500s" ref="r5" duration="12000/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-39.4717"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/1504740213/401" value="1 (Center)"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts29">Malgré l'importance de la liberté d'expression 
+et de la liberté de la presse</text-style>
+                                </text>
+                                <text-style-def id="ts29">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Trump passe son temps à lancer de fausses accusations contre les médias - _Sous-titre_FB_2" lane="1" offset="664900/2500s" ref="r5" duration="13700/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-39.4717"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts30">Trump passe son temps à lancer de fausses accusations contre les médias</text-style>
+                                </text>
+                                <text-style-def id="ts30">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Ils sont accusés de mentir quand lui-même  - _Sous-titre_FB_2" lane="1" offset="678600/2500s" ref="r5" duration="12900/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-39.4717"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/1504740544/401" value="1 (Center)"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts31">Ils sont accusés de mentir quand lui-même 
+a un rapport compliqué à la vérité</text-style>
+                                </text>
+                                <text-style-def id="ts31">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="Sur ce point-là, je pense que c'est très destructeur  - _Sous-titre_FB_2" lane="1" offset="691500/2500s" ref="r5" duration="19100/2500s" start="3600s">
+                                <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                                <param name="Anchor Point" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                                <param name="Layout Method" key="9999/1504716720/1504717636/2/314" value="1 (Paragraph)"/>
+                                <param name="Left Margin" key="9999/1504716720/1504717636/2/323" value="-39.4717"/>
+                                <param name="Right Margin" key="9999/1504716720/1504717636/2/324" value="1832.14"/>
+                                <param name="Top Margin" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                                <param name="Bottom Margin" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/1504740814/401" value="1 (Center)"/>
+                                <param name="Alignment" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Center)"/>
+                                <text>
+                                    <text-style ref="ts32">Sur ce point-là, je pense que c'est très destructeur 
+pour la presse, institution essentielle de la société</text-style>
+                                </text>
+                                <text-style-def id="ts32">
+                                    <text-style font="Helvetica Neue" fontSize="67" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center" tabStops="315L"/>
+                                </text-style-def>
+                            </title>
+                            <title name="_Fondu_noir_fin" lane="2" offset="705500/2500s" ref="r8" duration="5100/2500s" start="3600s"/>
+                        </clip>
+                    </spine>
+                </sequence>
+            </project>
+            <asset-clip name="Intro_Davos_v3_Gotham" ref="r2" duration="4s" format="r1" tcFormat="NDF" modDate="2018-01-25 17:02:47 +0100"/>
+            <asset-clip name="VID_20180125_151816" ref="r4" duration="230999040/720000s" audioRole="dialogue" format="r3" tcFormat="NDF" modDate="2018-01-25 17:02:30 +0100"/>
+        </event>
+    </library>
+</fcpxml>
