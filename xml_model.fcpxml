@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.5">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080"/>
+        <effect id="r2" name="_Sous-titre_FB_2" uid="~/Titles.localized/TG/_Sous-titre_FB_2/_Sous-titre_FB_2.moti"/>
+    </resources>
+    <library location="file:///Users/paul/Movies/MacHD.fcpbundle/">
+        <event name="GenèveRoule" uid="DADFA152-7F55-47ED-8804-440610FED682">
+            <project name="Projet sans titre" uid="9A7F4748-04DF-4CD6-8FB2-AE981D41D3FA">
+                <sequence duration="960960/120000s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        [INSERT]
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Projets" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="Toutes les vidéos" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio seulement" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Images" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favoris" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>

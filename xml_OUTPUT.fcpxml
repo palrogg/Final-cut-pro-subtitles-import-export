@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.5">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080"/>
+        <effect id="r2" name="_Sous-titre_FB_2" uid="~/Titles.localized/TG/_Sous-titre_FB_2/_Sous-titre_FB_2.moti"/>
+    </resources>
+    <library location="file:///Users/paul/Movies/MacHD.fcpbundle/">
+        <event name="GenèveRoule" uid="DADFA152-7F55-47ED-8804-440610FED682">
+            <project name="Projet sans titre" uid="9A7F4748-04DF-4CD6-8FB2-AE981D41D3FA">
+                <sequence duration="960960/120000s" format="r1" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                                                <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="0s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">Les Paradise Papers</text-style>
+                            </text>
+                            <text-style-def id="ts1">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="4s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">révèlent</text-style>
+                            </text>
+                            <text-style-def id="ts2">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="8s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">des informations exclusives sur</text-style>
+                            </text>
+                            <text-style-def id="ts3">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="12s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">Des chefs d’Etat</text-style>
+                            </text>
+                            <text-style-def id="ts4">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="16s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">Des multinationales</text-style>
+                            </text>
+                            <text-style-def id="ts5">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="20s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">De grands sportifs</text-style>
+                            </text>
+                            <text-style-def id="ts6">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="24s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">Et de riches entrepreneurs.</text-style>
+                            </text>
+                            <text-style-def id="ts7">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="28s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">Ils pensaient que ces informations d’intérêt public resteraient secrètes.</text-style>
+                            </text>
+                            <text-style-def id="ts8">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="32s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">Pourtant, un collectif de 360 journalistes</text-style>
+                            </text>
+                            <text-style-def id="ts9">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="36s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">dans 60 pays travaille depuis une année sur</text-style>
+                            </text>
+                            <text-style-def id="ts10">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="40s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">une fuite de données, provenant d’Appleby,</text-style>
+                            </text>
+                            <text-style-def id="ts11">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="44s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">le plus gros fournisseur de sociétés offshore du monde.</text-style>
+                            </text>
+                            <text-style-def id="ts12">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="48s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">Ils ont découvert que</text-style>
+                            </text>
+                            <text-style-def id="ts13">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="52s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">Des sociétés suisses pillent l’Afrique.</text-style>
+                            </text>
+                            <text-style-def id="ts14">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+                        <title name="_Sous-titre_FB_2 : Sous-titre 1" offset="56s" ref="r2" duration="96096/24000s" start="86399313/24000s">
+                            <param name="Position" key="9999/1504716720/1504717636/1/100/101" value="2.78625 -460.852"/>
+                            <param name="Point d’ancrage" key="9999/1504716720/1504717636/1/100/107" value="903.668 -64.558"/>
+                            <param name="Méthode de présentation" key="9999/1504716720/1504717636/2/314" value="1 (Paragraphe)"/>
+                            <param name="Marge de droite" key="9999/1504716720/1504717636/2/324" value="1807.34"/>
+                            <param name="Marge supérieure" key="9999/1504716720/1504717636/2/325" value="37.622"/>
+                            <param name="Marge inférieure" key="9999/1504716720/1504717636/2/326" value="-134.374"/>
+                            <param name="Alignement" key="9999/1504716720/1504717636/2/354/264896984/401" value="1 (Au centre)"/>
+                            <text>
+                                <text-style ref="ts1">[…]</text-style>
+                            </text>
+                            <text-style-def id="ts15">
+                                <text-style font="Helvetica Neue" fontSize="70" fontFace="Medium" fontColor="1 0.999974 0.999991 1" alignment="center"/>
+                            </text-style-def>
+                        </title>
+
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Projets" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="Toutes les vidéos" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio seulement" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Images" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favoris" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>
